@@ -1,0 +1,54 @@
+Drop database shop;
+
+create database shop;
+
+use shop;
+
+create table user(
+user_ID int(10),
+user_name VARCHAR(50),
+password VARCHAR(50),
+CONSTRAINT PRIMARY KEY(user_ID)
+);
+
+INSERT INTO user(user_ID,user_name,password)
+VALUES('1','raveen','ra');
+
+create table item(
+code Varchar(10),
+name varchar(50),
+qty int,
+unitPrice decimal(6,2),
+CONSTRAINT PRIMARY KEY(code)
+);
+
+INSERT INTO item(code ,name ,qty ,unitPrice)
+VALUES('c1','Dhal','200','320');
+
+create table orders(
+orderID Varchar(10),
+totalPrice decimal(6,2),
+CONSTRAINT PRIMARY KEY(orderID)
+);
+
+INSERT INTO orders(orderID,totalPrice)
+VALUES('1','640');
+
+create table orderDetails(
+ordDID int AUTO_INCREMENT,
+orderID Varchar(10),
+code varchar(10),
+qty int,
+cur_total decimal(6,2),
+primary key(ordDID),
+CONSTRAINT FOREIGN KEY(code) references item(code),
+CONSTRAINT FOREIGN KEY(orderID) references orders(orderID)
+);
+
+desc item;
+desc orders;
+desc orderDetails;
+
+Select * from item;
+Select * from orders;
+Select * from orderDetails;

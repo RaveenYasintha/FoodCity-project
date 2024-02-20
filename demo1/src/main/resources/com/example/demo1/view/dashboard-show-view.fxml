@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="564.0" prefWidth="707.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.controller.DashboardShowViewController">
+   <children>
+      <ImageView fitHeight="564.0" fitWidth="707.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/pngtree-black-minimalist-atmospheric-wooden-background-backgroundwooden-backgroundtree-texture-image_77053.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="31.0" layoutY="13.0" prefHeight="50.0" prefWidth="674.0" text="𝐓𝐨𝐝𝐚𝐲 6 𝐏𝐫𝐨𝐝𝐮𝐜𝐭𝐬, 𝐄𝐯𝐞𝐫𝐲𝐭𝐡𝐢𝐧𝐠 𝐚𝐭 𝐭𝐡𝐞 𝐋𝐨𝐰𝐞𝐬𝐭 " textFill="#3dc238">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="49.0" prefHeight="50.0" prefWidth="255.0" text="𝐏𝐫𝐢𝐜𝐞 𝐄𝐯𝐞𝐫𝐲 𝐃𝐚𝐲 " textFill="#3dc238">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="270.0" layoutY="32.0" prefHeight="141.0" prefWidth="222.0" text="10% " textFill="#c0c8c0">
+         <font>
+            <Font name="System Bold" size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="473.0" layoutY="49.0" prefHeight="50.0" prefWidth="202.0" text="𝐁𝐞𝐭𝐭𝐞𝐫 𝐏𝐫𝐢𝐜𝐞𝐝" textFill="#3dc238">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="85.0" prefHeight="50.0" prefWidth="230.0" text="𝐭𝐡𝐚𝐧 𝐑𝐞𝐠𝐮𝐥𝐚𝐫 " textFill="#3dc238">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="122.0" prefHeight="50.0" prefWidth="130.0" text="𝐁𝐫𝐚𝐧𝐝..." textFill="#3dc238">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Pane layoutX="32.0" layoutY="181.0" prefHeight="301.0" prefWidth="647.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="9.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/Vim.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="169.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/Nice.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="132.0" fitWidth="150.0" layoutX="348.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/Freelan-Soya-Maldive-Fish-70g.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="491.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/Vim.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
